@@ -1,0 +1,41 @@
+.layout {
+  display: flex;
+  margin-top: 44px;
+}
+
+
+.users svg {
+  width: auto;
+  height: auto;
+  position: fixed;
+}
+
+.wrapperRight {
+  width: 45%;
+}
+
+.wrapperLeft {
+  width: 55%;
+}
+
+.p {
+  max-width: 433px;
+}
+
+.h1 :after {
+  content: "|";
+  margin-left: 5px;
+  opacity: 1;
+  animation: pisca 0.7s infinite;
+}
+/* Animação aplicada ao content referente a classe *.titulo-principal* resultando num efeito de cursor piscando. */
+
+@keyframes pisca {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}

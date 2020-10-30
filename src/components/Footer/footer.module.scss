@@ -1,0 +1,21 @@
+.footer {
+    margin-top: 2rem;
+    max-width: 960px;
+    padding: 0 1.0875rem 1.45rem;
+    font-size: 12px;
+    color: #5D87A8;
+}
+
+.wrapper{
+    margin: 0;
+    display: block;
+    background: #E7EFF4;
+    width: 100vw;
+    height: 125px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer a {
+    text-decoration: none;
+}

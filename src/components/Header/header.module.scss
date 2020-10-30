@@ -1,0 +1,49 @@
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background: linear-gradient(180deg, #f8f2ff 0%, rgba(250, 250, 250, 0) 100%);
+  backdrop-filter: blur(250px);
+  z-index: 9999;
+  top: 0;
+  animation-name: fadeInDown;
+  transition: 0.2s;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wrapperIcons{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icons {
+  margin-right: 1.5rem;
+  right: 0;
+  font-size: 20px;
+}
+
+.icons :last-child {
+  margin-right: 0;
+}
+
+.logo {
+  justify-content: flex-start;
+  left: 0;
+  margin-right: 2rem;
+  color: #25323D;
+  text-decoration: none;
+}
+
+
+.nav {
+  margin-right: 3.4375rem;
+}
