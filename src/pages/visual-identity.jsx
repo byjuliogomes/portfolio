@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
 import Catalogo from '../components/Catalogo'
-import VI from '../images/iv.png'
+import VI from '../../images/iv.png'
 import viStyles from "./visual-identity.module.scss"
 import AOS from "aos"
 import "aos/dist/aos.css"

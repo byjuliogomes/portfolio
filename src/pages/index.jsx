@@ -341,7 +341,7 @@ class IndexPage extends React.Component {
             <p className={indexStyles.p}>
               I’m a Product Designer with a passion for participate in every
               stage of digital product, from discovery to delivery. Helping to
-              focus the business goals on users.
+              focus the business goals on users. teste
             </p>
             <p>Now go build something great.</p>
           </div>

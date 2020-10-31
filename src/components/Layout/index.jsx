@@ -5,7 +5,7 @@ import Footer from '../Footer'
 import Header from "../Header"
 import "./layout.scss"
 import Helmet from "react-helmet"
-import favicon from "../../images/jg-icon.png"
+import favicon from "../../../images/jg-icon.png"
 import config from "../../data/config"
 
 const Layout = ({ children }) => {

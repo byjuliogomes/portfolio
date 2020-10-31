@@ -1,8 +1,8 @@
 import React from "react"
 import catalogoStyles from "./catalogo.module.scss"
-import thumb01 from "../../images/Thumbnail01.png"
-import thumb02 from "../../images/Thumbnail02.png"
-import thumb03 from "../../images/Thumbnail03.png"
+import thumb01 from "../../../images/Thumbnail01.png"
+import thumb02 from "../../../images/Thumbnail02.png"
+import thumb03 from "../../../images/Thumbnail03.png"
 
 const Catalogo = (props) => {
   return (

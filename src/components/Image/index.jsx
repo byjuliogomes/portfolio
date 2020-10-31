@@ -10,7 +10,11 @@ const Image = () => {
       placeholderImage: file(relativePath: { eq: "julio.png" }) {
         childImageSharp {
           fluid(maxWidth: 1200) {
-            ...GatsbyImageSharpFluid
+            base64
+    aspectRatio
+    src
+    srcSet
+    sizes
           }
         }
       }
@@ -19,10 +23,11 @@ const Image = () => {
 
   if (!data?.placeholderImage?.childImageSharp?.fluid) {
     return <div>Picture not found</div>
-  } else{
+  } else {
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
-}}
+    return <Img fluid={data.placeholderImage.childImageSharp.fluid}  />
+  }
+}
 
 export default Image
 
